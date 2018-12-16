@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle code-signature",
+        "command": "code-signature:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "code-signature",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "code-signature:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
